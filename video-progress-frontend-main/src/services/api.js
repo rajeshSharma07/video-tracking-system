@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create axios instance with base URL
 const api = axios.create({
-  baseURL: process.env.REACT_APP_API_URL || 'http://localhost:5000/api', // Use local env var first, then fallback
+  baseURL: process.env.REACT_APP_API_URL || 'http://localhost:5000/', // Use local env var first, then fallback
   headers: {
     'Content-Type': 'application/json'
   }
